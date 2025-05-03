@@ -1,0 +1,48 @@
+.teachers {
+   background-color: #d5d671;
+   &__container {
+   }
+
+   &__studio-title {
+      text-align: center;
+   }
+
+   &__subtitle {
+      text-align: center;
+   }
+
+   &__cards {
+      // display: flex;
+      // justify-content: space-around;
+      // flex-wrap: wrap;
+   }
+}
+.teacher-card {
+   margin-bottom: 50px;
+   display: flex;
+   justify-content: space-between;
+   &__image {
+      order: 1;
+      max-width: 500px;
+      max-height: 700px;
+
+      img {
+         object-fit: cover;
+         width: 100%;
+         height: 100%;
+      }
+   }
+
+   &__info {
+      width: 500px;
+   }
+
+   &__name {
+   }
+
+   &__desc {
+   }
+}
+.teacher-card:last-child {
+   margin-bottom: 0;
+}
