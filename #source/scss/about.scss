@@ -6,6 +6,24 @@
    &__title {
    }
 
+   &__text-box {
+   }
+
+   &__img {
+      width: 400px;
+      height: 200px;
+      background-color: #444444;
+      color: aliceblue;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 30px;
+      font-weight: 600;
+   }
+
+   &__sub-title {
+   }
+
    &__text {
    }
 }

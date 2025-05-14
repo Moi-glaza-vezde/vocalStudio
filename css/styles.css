@@ -37,7 +37,7 @@ body {
   background-color: #285fb3; }
 
 .header {
-  background-color: #d8e945;
+  background-color: #975ca2;
   padding: 20px 0; }
   .header__address {
     text-align: center; }
@@ -102,9 +102,13 @@ body {
   .main__title {
     font-size: 50px; }
   .main__title-sub-title {
-    font-size: 40px;
-    line-height: 40px;
+    font-size: 30px;
+    line-height: 30px;
     max-width: 400px; }
+  .main__qr {
+    max-width: 200px; }
+  .main__qr-img {
+    width: 100%; }
   .main__image {
     width: 500px; }
     .main__image img {
@@ -147,8 +151,43 @@ body {
 .teacher-card:last-child {
   margin-bottom: 0; }
 
+.pricing {
+  padding: 10px 0;
+  background-color: #be69cf; }
+  .pricing__cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 20px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  .pricing__card {
+    width: 250px;
+    height: 300px;
+    background-color: #e6e6e6;
+    text-align: center; }
+
 .about {
   background-color: #f5a7a7; }
+  .about__img {
+    width: 400px;
+    height: 200px;
+    background-color: #444444;
+    color: aliceblue;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600; }
 
 .collab {
   background-color: #81ffb6; }
@@ -305,7 +344,7 @@ body {
   .gallery__player {
     width: 100%; }
 
-.prices {
+.rent {
   background-color: #f3e389; }
 
 .contacts {

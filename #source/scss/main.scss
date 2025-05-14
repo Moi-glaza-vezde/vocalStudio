@@ -14,9 +14,23 @@
    }
 
    &__title-sub-title {
-      font-size: 40px;
-      line-height: 40px;
+      font-size: 30px;
+      line-height: 30px;
       max-width: 400px;
+   }
+
+   &__text-block {
+   }
+
+   &__text {
+   }
+
+   &__qr {
+      max-width: 200px;
+   }
+
+   &__qr-img {
+      width: 100%;
    }
 
    &__image {
